@@ -1,0 +1,18 @@
+[project]
+name = "pdftoolkit"
+version = "0.1.0"
+description = "A collection of Python tools for extracting and analyzing PDF content, with a focus on charts and visualizations"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "byaldi>=0.0.8",
+    "docling>=2.15.0",
+    "langchain-openai>=0.2.16",
+    "marker-pdf>=1.1.0",
+    "markitdown>=0.0.1a3",
+    "megaparse>=0.0.46",
+    "ollama>=0.4.7",
+    "setuptools>=69.2.0",
+    "together>=1.3.10",
+    "unstructured[all-docs]>=0.11.8",
+]
