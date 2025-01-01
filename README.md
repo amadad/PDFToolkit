@@ -71,14 +71,14 @@ cp .env.example .env
   ```python
   # Extract text and images from PDFs
   from marker.converters.pdf import PdfConverter
-  
+
   # Process workflow:
   # 1. Extract text/images from PDF
   # 2. Save images to disk
   # 3. Get GPT-4o descriptions
   # 4. Insert descriptions into markdown
   # 5. Save enhanced markdown with AI descriptions
-  
+
   # Features:
   # - Preserves document layout
   # - Extracts embedded images
